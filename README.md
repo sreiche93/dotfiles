@@ -181,10 +181,9 @@ i3+gaps:
 
 Now copy the .xinitrc
 
-Useful applications:
+####Useful applications:
+`# sudo pacman -S ...`
 ```
-# sudo pacman -S
-
 alsa-utils
 cbatticon
 chromium
@@ -238,24 +237,26 @@ wpa_supplicant
 zip
 ```
 
-From AUR:
+From AUR: `# yaourt -S ...`
 ```
-yaourt -S lxterminal
-yaourt -S anaconda
-yaourt -S spotify
-yaourt -S sublime-text
-yaourt -S android-studio
-yaourt -S android-sdk android-sdk-platform-tools android-sdk-build-tools (benötigt multilib)
-yaourt -S glxinfo
-```
-
-Pip
-```
-pip install orange3
-pip install unicodecsv#
+anaconda
+android-sdk
+android-sdk-platform-tools
+android-sdk-build-tools (needs multilib)
+android-studio
+glxinfo
+lxterminal
+spotify
+sublime-text
 ```
 
-Github
+Python packages: `# sudo pip install ...`
+```
+orange3
+unicodecsv#
+```
+
+From Github:
 ```
 python-unicodecsv
 ```
