@@ -9,7 +9,8 @@ But you're welcome to try it out yourself. :)
 
 ##Directory structure
 ```
-i3  - i3 is a tiling window manager
+i3      - i3 is a tiling window manager
+xinitrc - shell script to execute desktop environment
 ```
 
 ```
