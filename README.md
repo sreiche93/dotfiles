@@ -19,6 +19,13 @@ i3status: ~/.config/i3status/config
 xinitrc:  ~/.xinitrc
 ```
 
+| .file         | Description           | Path                      |
+| ------------- | --------------------- | ------------------------- |
+| i3            | tiling window manager | ~/.config/i3/config       |
+| i3status      | statusbar for i3wm    | ~/.config/i3status/config |
+| xinitrc       | shell script for wm   | ~/.xinitrc                |
+
+
 ##Installation
 ###1. Download the ISO-Image
 Download the actual image [here](https://www.archlinux.org/download/).
@@ -118,7 +125,7 @@ HOOKS="base udev autodetect modconf block keyboard keymap encrypt lvm2 filesyste
 # passwd
 
 # pacman -S gptfdisk syslinux
-#syslinux-install_update -iam
+# syslinux-install_update -iam
 # nano /boot/syslinux/syslinux.cfg
 ```
 Delete everything below INITRD (of label arch) except reboot.  
