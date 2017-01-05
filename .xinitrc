@@ -16,5 +16,5 @@ fi
 # exec startxfce4
 # ...or the Window Manager of your choice
 setxkbmap de
-feh --bg-center ~/Images/Wallpaper/hitchhiker.jpg &
+feh --bg-center ~/Pictures/Wallpaper/hitchhiker.jpg &
 exec i3
