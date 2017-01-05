@@ -8,22 +8,12 @@ It's mainly designed to document the procedure for myself and friends.
 But you're welcome to try it out yourself. :)
 
 ##Directory structure
-```
-i3      - i3 is a tiling window manager
-xinitrc - shell script to execute desktop environment
-```
-
-```
-i3:       ~/.config/i3/config
-i3status: ~/.config/i3status/config
-xinitrc:  ~/.xinitrc
-```
-
-| .file         | Description           | Path                      |
-| ------------- | --------------------- | ------------------------- |
-| i3            | tiling window manager | ~/.config/i3/config       |
-| i3status      | statusbar for i3wm    | ~/.config/i3status/config |
-| xinitrc       | shell script for wm   | ~/.xinitrc                |
+| .file         | Description                                      | Path                      |
+| ------------- | ------------------------------------------------ | ------------------------- |
+| i3            | tiling window manager                            | ~/.config/i3/config       |
+| i3status      | statusbar for i3wm                               | ~/.config/i3status/config |
+| xinitrc       | shell script to execute the desktop environment  | ~/.xinitrc                |
+| redshift.conf | adjusts the color temperature (location: Berlin) | ~/.config/redshift.conf   |
 
 
 ##Installation
@@ -82,7 +72,7 @@ Prepare and mount the logical volumes.
 # mount /dev/sda1 /mnt/boot
 # mount /dev/mapper/main-home /mnt/home
 ```
-From this part on the installation is pretty much the same compared to the official installation guide. 
+From this part on the installation is pretty much the same compared to the official installation guide.
 ```
 # ip a
 # dhcpcd enp5s0
@@ -190,14 +180,16 @@ i3+gaps:
 Now copy the .xinitrc
 
 ####Useful applications:
-`# sudo pacman -S ...`
+From official repositories: `# sudo pacman -S ...`
 ```
 alsa-utils
+atom
 cbatticon
 chromium
 dmenu
 dhclient
 dialog
+exfat-utils
 feh
 firefox
 firefox-i18n-de
@@ -209,6 +201,7 @@ gnome-keyring
 gtk3
 gvfs
 icedtea-web
+imagemagick
 ipython2-notebook
 iw
 i3lock
@@ -231,8 +224,10 @@ python-pip
 python-pyqt4
 python2-pip
 ranger
+redshift
 rofi
 rxvt-unicode
+scrot
 texlive-lang
 texlive-most
 texmaker
