@@ -11,7 +11,7 @@ But you're welcome to try it out yourself. :)
 | .file         | Description                                      | Path                      |
 | ------------- | ------------------------------------------------ | ------------------------- |
 | i3            | tiling window manager                            | ~/.config/i3/config       |
-| i3lock        | i3lock bash script created by [Meskarune](https://github.com/meskarune/i3lock-fancy) | ~/lock |
+| i3lock        | i3lock bash script created by ? | ~/lock |
 | i3status      | statusbar for i3wm                               | ~/.config/i3status/config |
 | xinitrc       | shell script to execute the desktop environment  | ~/.xinitrc                |
 | redshift.conf | adjusts the color temperature (location: Berlin) | ~/.config/redshift.conf   |
@@ -198,6 +198,7 @@ flashplugin
 gedit
 ghc
 git
+gimp
 gnome-keyring
 gtk3
 gvfs
@@ -210,6 +211,7 @@ jupyter-notebook
 libreoffice-still
 libreoffice-still-de
 lxrandr
+mathjax
 mupdf
 networkmanager
 network-manager-applet
@@ -252,12 +254,15 @@ glxinfo
 lxterminal
 spotify
 sublime-text
+qgis
 ```
 
 Python packages: `# sudo pip install ...`
 ```
+mathplotlib
 orange3
-unicodecsv#
+pandas
+unicodecsv
 ```
 
 From Github:
