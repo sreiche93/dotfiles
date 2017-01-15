@@ -14,6 +14,7 @@ But you're welcome to try it out yourself. :)
 | i3lock        | i3lock bash script created by ? | ~/lock |
 | i3status      | statusbar for i3wm                               | ~/.config/i3status/config |
 | xinitrc       | shell script to execute the desktop environment  | ~/.xinitrc                |
+| Xresources    | configuration file (rofi)                        | ~/.Xresources             |
 | redshift.conf | adjusts the color temperature (location: Berlin) | ~/.config/redshift.conf   |
 
 
@@ -185,6 +186,7 @@ From official repositories: `# sudo pacman -S ...`
 ```
 alsa-utils
 atom
+boost
 cbatticon
 chromium
 dmenu
@@ -212,16 +214,20 @@ libreoffice-still
 libreoffice-still-de
 lxrandr
 mathjax
+mongodb
 mupdf
 networkmanager
 network-manager-applet
 nodejs
 npm
+openssh
 pavucontrol
 pcmanfm
 pidgin
 pidgin-otr
 pulseaudio
+python-matplotlib
+python-pymongo
 python-pip
 python-pyqt4
 python2-pip
@@ -239,6 +245,7 @@ unzip
 vim
 vlc
 wpa_supplicant
+xclip
 zip
 ```
 
@@ -262,6 +269,7 @@ Python packages: `# sudo pip install ...`
 mathplotlib
 orange3
 pandas
+pyshp
 unicodecsv
 ```
 

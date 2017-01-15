@@ -1,0 +1,31 @@
+rofi.opacity: 90
+rofi.width: 100
+rofi.lines: 3
+rofi.columns: 1
+rofi.font: SourceCodePro 11
+rofi.fg: #FFFFFF
+rofi.background: #2D2D2D
+rofi.hlfg: #FFFFFF
+rofi.hlbg: #005577
+rofi.bc: #013B74
+rofi.bw: 3
+rofi.location: 3 
+rofi.padding: 2
+rofi.yoffset: 0
+rofi.xoffset: 0
+rofi.fixed-num-lines: false
+rofi.hmode: false
+rofi.terminal: x-terminal-emulator
+rofi.ssh-set-title: true
+rofi.key: F12
+rofi.rkey: mod1+F2
+rofi.skey: mod1+F3
+
+! -----------
+! Rofi color theme (Ethernic (reddit-user))
+! -----------
+rofi.color-enabled:true
+rofi.color-window: #393939, #393939, #268bd2
+rofi.color-normal: #393939, #ffffff, #2c2c2c, #268bd2, #ffffff
+rofi.color-active: #393939, #268bd2, #2c2c2c, #268bd2, #205171
+rofi.color-urgent: #393939, #f3843d, #2c2c2c, #268bd2, #ffc39c
